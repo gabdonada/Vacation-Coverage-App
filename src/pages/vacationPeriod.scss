@@ -1,0 +1,45 @@
+.vacationDIV{
+    background-color: #f8f8f8;
+    box-shadow: 0 0 1em rgb(53, 53, 53);
+
+    border-radius: 1rem;
+
+    display: flex;
+    padding: 0.5rem;
+
+    margin-top: 1rem;
+
+    
+
+    p{
+        color: #29292e;
+    }
+
+    
+
+    .cancelVAc{
+        padding: 0.5rem;
+        display: flex;
+        justify-content: center;
+        //align-items: center;
+
+        cursor: pointer;
+        
+        height: 20%;
+
+        button {
+            background-color: #f8f8f8;
+        }
+         
+        button:hover {
+            background-color: #ff1919;
+        }
+        img{
+            height: 3rem;
+            width: 2rem;
+        }
+
+        
+    }
+    
+}
